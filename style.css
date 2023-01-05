@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;800&family=Poppins:wght@400;600;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.vh100{
+    height: 100vh;
+    width: 100%;
+}
+.title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin: 20px 0;
+
+}
+.title_p{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #707070;
+    text-align: center;
+    
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:  linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.267) 100%),url('images/donation14.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 65px;
+}
+header p{
+ 
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+.btn_danger{
+    background-color: #FF5959;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.amaunt{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    gap: 20px;
+}
+.amaunt div{
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid silver;
+   font-size: 30px;
+   font-weight: 800;
+   color: #707070;
+}
+
+.amaunt div:hover{
+    background-color: #f8b5b5;
+    border-color: #FF5959;
+    color: #FF5959;
+}
+.amount_tk{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.hr{
+    border: 1px solid #afaeae;
+    width: 100%;
+    margin: 15px 0;
+}
+.plan{
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+
+}
+.plan_des{
+    padding: 60px 35px;
+    background-color: rgb(253, 240, 240);
+    border-radius: 5px;
+}
+.plan_des .icon{
+    font-size: 80px;
+     color: #707070;
+}
+.plan_title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.plan_dec{
+    font-size: 16px;
+    color: #707070;
+}
+.d_flex{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.left{
+    width: 45%;
+}
+.right{
+    width: 45%;
+}
+.right img{
+    width: 100%;
+    border-radius: 10px;
+}
+.vh_ot{
+    margin-bottom: 100px;
+}
+.vh_ot p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.inpu_div{
+    width: 800px;
+    height: 200px;
+    background-color: #fae5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.inpu_div input{
+    padding: 5px 20px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #121212;
+    color: #fae5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer h3{
+    font-family: Lobster;
+    font-size: 35px;
+    color: #FF5959;
+}
